@@ -15,4 +15,8 @@ class Stack
   def length
     @buffer.length
   end
+
+  def empty?
+    @buffer.count.zero?
+  end
 end
